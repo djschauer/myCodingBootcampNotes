@@ -52,7 +52,7 @@ copies file
 
 moves file to destination
 
-#Cool Terminal Commands
+# Cool Terminal Commands
 
 ### Up Key
 
@@ -72,7 +72,7 @@ Autofills out file name if exists and unique
 
 / - root directory
 
-#Git Commands
+# Git Commands
 
 ### git clone < link >
 
@@ -103,3 +103,79 @@ _If Windows, and see this:_
 *Warning: CRLF will be converted to LF*
 
 Not an error message.
+
+
+# HTML Notes
+
+### Tags
+
+Tags have opening and closing tags: eg. < h1 > </ h1 >
+
+Attributes go within tags: eg. < a href= "LINK" > Link </ a >
+
+## Common Tags
+
+### Headings
+
+h1-h5 - heading tags, 1 largest 5 smallest
+
+### Containers
+
+Html - wraps entire page
+
+Head - wraps header of page
+
+body - wraps main content
+
+div - logical container (generic container)
+
+p - wraps individual paragraphs
+
+### Others
+
+Strong: Bolds text
+
+em: emphasis texts
+
+img: image, puts image on page
+
+a href: link, anchor with href
+
+li: list item
+
+title: title
+
+br: break, puts break between content
+
+table: table, creates items into table
+
+!-- -- : comments, cannot be seen on webpage
+
+### UI Form Elements
+
+form - creates a form section for your html
+
+(Finish notes later)
+
+# CSS Notes
+
+### Syntax
+
+Styling in HTML:
+
+Style tag
+Selector { Property: Value; }
+End Style tag
+
+Styling classes in CSS:
+
+.Class
+{
+    property: value;
+
+}
+
+### Key CSS Attributes
+
+(Finish notes later)
+
