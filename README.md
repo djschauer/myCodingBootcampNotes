@@ -46,7 +46,11 @@ Removes or deletes a directory. Totally deletes your file.
 
 ### cp <target file> <destination file>
 
+copies file
+
 ### mv <target file> <destination file>
+
+moves file to destination
 
 #Cool Terminal Commands
 
