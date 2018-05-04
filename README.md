@@ -52,7 +52,7 @@ Clones file and pulls from git hub
 
 ### git add <name of file>
 
-adds for for inclusion of git.
+adds file for inclusion in git. Tells git to watch file/directory for changes
 
 ### git commit
 
@@ -69,3 +69,7 @@ pulls newest version of repository.
 ### git status
 
 Tells you what state your git is in.
+
+_If Windows, and see this:_
+
+*Warning: CRLF will be converted to LF*
