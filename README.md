@@ -73,3 +73,5 @@ Tells you what state your git is in.
 _If Windows, and see this:_
 
 *Warning: CRLF will be converted to LF*
+
+Not an error message.
