@@ -44,6 +44,30 @@ Removes or deletes a file. Totally deletes your file.
 
 Removes or deletes a directory. Totally deletes your file.
 
+### cp <target file> <destination file>
+
+### mv <target file> <destination file>
+
+#Cool Terminal Commands
+
+### Up Key
+
+Fills in previous command
+
+### Tab Key (While Typing file or folder name)
+
+Autofills out file name if exists and unique
+
+### Special directories:
+
+~/ - user directory
+
+../ - one directory up (one directory closer to the root, the parent directory)
+
+./ - the current directory
+
+/ - root directory
+
 #Git Commands
 
 ### git clone < link >
