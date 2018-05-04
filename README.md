@@ -43,3 +43,29 @@ Removes or deletes a file. Totally deletes your file.
 ### rmdir < directory >
 
 Removes or deletes a directory. Totally deletes your file.
+
+#Git Commands
+
+### git clone < link >
+
+Clones file and pulls from git hub
+
+### git add <name of file>
+
+adds for for inclusion of git.
+
+### git commit
+
+notes changes to local repository.
+
+### git push
+
+sends the changes to hosting service ie git hub.
+
+### git pull
+
+pulls newest version of repository.
+
+### git status
+
+Tells you what state your git is in.
