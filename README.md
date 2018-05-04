@@ -44,11 +44,11 @@ Removes or deletes a file. Totally deletes your file.
 
 Removes or deletes a directory. Totally deletes your file.
 
-### cp <target file> <destination file>
+### cp < target file > < destination file >
 
 copies file
 
-### mv <target file> <destination file>
+### mv < target file > < destination file >
 
 moves file to destination
 
@@ -78,7 +78,7 @@ Autofills out file name if exists and unique
 
 Clones file and pulls from git hub
 
-### git add <name of file>
+### git add < name of file >
 
 adds file for inclusion in git. Tells git to watch file/directory for changes
 
