@@ -169,7 +169,7 @@ End Style tag
 
 Styling classes in CSS:
 
-.Class
+.Class/element/Id
 {
     property: value;
 
@@ -179,3 +179,86 @@ Styling classes in CSS:
 
 (Finish notes later)
 
+### Selectors
+
+Element selctor: styles all of one element
+h1 {
+
+}
+Class selector: styles all of one class
+.class {
+
+}
+
+ID Selector: stlyes all of one class, ID is usually one individual element.
+(#)iditem {
+
+}
+
+Hashtag means ID, period means class
+
+ID supercedes Class in order.
+
+### Relative File Paths
+
+Referencing images, links, files etc. need to tell where they are in folders.
+
+"...href=folder/file.filetype"
+
+Do not use absolute paths.
+
+When referenceing a file your reference will begin in the folder you are in. If you want to move backwards a directory, begin with "../". To move forward use "/".
+
+Pay attention to Parent and subdirectories (the hieraarchy of folders), when referencing.
+
+### Box Model
+
+In CSS every element rests within a series of boxes with customizable space properties:
+
+Margin - How positioned On a wall
+
+Border - Frame on the painting
+
+Padding - The distance from the picture to the frame
+
+Content - The picture
+
+Spacing values are written in order of TRBL (Top, Right, Bottom, Left.)
+
+### Floats
+
+Float, everything will float to a particular part of the page. Things will word wrap and position around the floated element. It works incredibly similarly as MSWord text wrap options. (Ie. behind text, inline text, etc.)
+
+Block positioning - Each block takes up a line
+
+Inline Block - Each separate element will display adjacently.
+
+sidebar {
+    float: left;
+}
+
+Clear fix - Sets a line that ends the floats.
+
+.clearfix::after {
+    content: "content";
+    display: block;
+    clear: both;
+}
+
+### Position
+
+Static position of a div, is statically positioned as a default.
+
+Switching position to relative, makes it position itself relatively to the container its in.
+
+Absolute position, relative to nearest ancestor. Where it physically sits on a webpage.
+
+Fixed position, Keeps div set where it is regardless of scrolling.
+
+# Z Index
+
+Z index allows for layering.
+
+positon: absoltute; z-index: 2;
+
+Display: none; hides elements from view.
