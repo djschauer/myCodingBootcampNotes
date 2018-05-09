@@ -262,3 +262,17 @@ Z index allows for layering.
 positon: absoltute; z-index: 2;
 
 Display: none; hides elements from view.
+
+### Chrome Developer Tools
+
+Debugs your webpages by finding and displaying errors in your code.
+
+Can modify any page instantly and see your results instantly.
+
+### CSS Resets
+
+Can deploy multiple CSS files simultaneously.
+
+Loading order matters: Last file loaded takes precedence.
+
+CSS reset, list out all html elements and setting the values to a baseline 0.
