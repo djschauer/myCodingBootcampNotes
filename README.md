@@ -356,3 +356,5 @@ Declare Media Queries last.
 @media screen and (max-width: 768px) {
 
 For Breakpoints, google best practices breakpoints or best practice media queries.
+
+Viewport refers to the display being used to view the website.
