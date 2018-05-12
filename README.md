@@ -276,3 +276,83 @@ Can deploy multiple CSS files simultaneously.
 Loading order matters: Last file loaded takes precedence.
 
 CSS reset, list out all html elements and setting the values to a baseline 0.
+
+### CSS Typogrphy
+
+Line Height - Distance between lines of text on a page (Golden Ratio of 1.5x font)
+
+Font size - Actual size of lettering. Should be atleast 16px on modern pages.
+
+Line Length - Not CSS property, but should b about 50-75 chars per line on desktop.
+
+Letter Spacing - Spacing between the letters.
+
+Sans Serif Fonts - Easier to read online. Fonts without their serifs.
+
+### Google Fonts
+
+fonts.google.com
+
+### Psuedo Styles
+
+Keywords can be added to selectors to highlight a special state of the selected element. (ie. hover, click, visited etc.)
+
+Used for styling things during specific states.
+
+(element):(psuedo class) {
+
+}
+
+## Psuedo elements
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+
+Adds content as opposed to style.
+
+## Bootstrap
+
+Sketches: Design with a grid in mind
+
+Bootstrap is built on the idea of grid; columns and merging columns.
+
+12 is the magic number for grids.
+
+Wireframing tools:
+Balsamiq
+Framebox
+Pen and Paper: sketch it out
+
+### Columns
+
+#col-(size)-(number)  VERY IMPORTANT
+
+Container (<)div class="container"(>)
+
+Row (<)div class="row"(>)
+
+Column (<)div class="col-md-12"(>)
+
+In order to separate different classes, add additional class into the bootstrap class.
+
+ie. (<)div class="col-md-12 newclass"(>)
+
+### (Other Grid Frameworks)
+
+Materialize
+Modernizer
+
+## Mobile Responsive
+
+### Media Queries
+
+Define how CSS styles are applied in realtion to the characteristics of the device viewport. (Maximum of 5 breakpoints: Desktop, Tablet landscape, Tab portrait, Mobile Landscape, mobile portrait.)
+
+Can change the way a web page is displayed based on width, height, orientation and even media type (screen, paper, braille, etc.)
+
+Bootstrap uses extensive media queries under the hood.
+
+Declare Media Queries last.
+
+@media screen and (max-width: 768px) {
+
+For Breakpoints, google best practices breakpoints or best practice media queries.
