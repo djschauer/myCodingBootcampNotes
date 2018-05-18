@@ -358,3 +358,160 @@ Declare Media Queries last.
 For Breakpoints, google best practices breakpoints or best practice media queries.
 
 Viewport refers to the display being used to view the website.
+
+# Java Script
+
+HTML and CSS are the structure, content and aesthetics of the page, JavaScript is the logic.
+
+## Variables
+
+Nouns of the programming language: They have names and values. (Integers (decimals are called floats or doubles), String, Booleans.)
+
+String, needs quotes around. var string = "String"
+
+Integer needs no quotes. var integer = 1
+
+Boolean can only be true or false, lowercase and needs no quotes. var boolean = true
+
+Order of variables within  file is important (js reads it top to bottom.)
+
+Order of files also then matters, if there are multiple files.
+
+Keyword  Variable Name Assignment    Value     Termination
+var            name        =      "snow white"      ;
+
+## Logging
+
+console.log(nameofvariable);
+
+Will log it in the console, viewable on Chrome Dev tools.
+
+## Confirms and Prompts (functions)
+
+Confirm, yes or no question (ok and cancel) and stores the response.
+
+Prompt, asks you to input a value and stores the value.
+
+    var nameOfFunction = confirm(question?);
+
+    var nameOfFunction = prompt(question?);
+
+Data is stored just like a variable, and is called by the "nameOfFunction"
+
+### Document Write
+
+Dislplays text on the webpage itself.
+
+document.write("Text");
+
+# If/Else
+
+    if (function === conditionyouwantmet) {
+    alert("thingthatyouwanttohappen")
+    }
+    else {
+    alert("otherthingthatcouldhappen")
+    }
+
+values:
+<         Less than
+
+">"         Greater than
+
+==        Equal to, does not force type
+
+"==="     Equal to, does force type
+
+<=        Less than or equal to
+
+">="        Greater than or equal to
+
+&&        "And"; Add multiple conditions using and, 
+    
+    ie. if (functiona == condition && functionb ==condition) {
+    alert("thhinghapen")
+    }
+
+Concatination: When you add two strings. "1" + "1" will equal 11. When you add an integer with a string. 1 + "1" = 11. If one of your variables is a string it will turn them all into strings.
+
+If you ever add a Boolean to an integer it will convert the Boolean into its number value (true 1 and false 0)
+
+# Arrays
+
+Lists out items into an array that are positioned based on their index value starting at 0
+
+    ie. var array = ["index0", "index1", "index2", "index3"];
+
+    var zooAnimals = ["Zebra", "Rhino", "Giraffe", "Owl"];
+
+Arrays can have multiple dimensions, and be nested into each other. The values in the array do not have to be all the same type, but practically this will not happen.
+
+To look things up in an array:
+
+    (zooAnimals[1])
+
+    console.log(zooAnimals[1])
+
+    (zooAnimals.indexOf("bear")) (Searches array for that values)
+
+Side Note: control + / will auto comment things out.
+
+To reset a value in an array simply say that it is equal to something else. This can be done with any variable type.
+
+    zooAnimals[1] = "Kangaroo";
+
+# For Loops
+
+Buildig a for loop, you define a variable, then a stopping point and then set it to iterate.
+
+    for (var i = 0; i < array.length; i++) {
+        console.log(array[i]);
+    }
+
+    for (var i = 5; a > 0; i--) {
+        console.log(array[i]);
+    }
+
+Declare Variable
+
+Loop Condition
+
+Increment
+
+Increment can be set in multiple ways.
+
+i++: add one
+
+i--: subtract one
+
+i+="integer": Add by chosen value
+
+i-="integer": subtract by chosen value
+
+# Functions
+
+Call a function, give it a name, then give it a parameter.
+
+    function logArray(list) {
+        for var i = 0; i < list.length; i++) {
+            console.log(list[i]);
+        }
+    }
+
+    logArray(nameofaarray)
+
+Can be used multiple times on different variables. Functions essentially create repeatable code that can be used throughout to do the same thing without having to rewrite the same code.
+
+You can pass multiple variables.
+
+    function logArray(list, words) {
+        for var i = 0; i < list.length; i++) {
+            console.log(words + " " + list[i]);
+        }
+    }
+
+    logArray(nameofarray, "phrase ")
+
+|| = or
+
+&& = and
