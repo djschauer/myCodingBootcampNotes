@@ -515,3 +515,42 @@ You can pass multiple variables.
 || = or
 
 && = and
+
+## Objects
+
+(Finish later)
+
+## Manipulating the DOM
+
+The DOM: Abstract concept that is essentially a manipulatable object.
+
+document.createElement("nameofelement"): Creates elements
+
+(nameofdivtobeappended).appendChild(nameofdivtobeadded): adds divs to an element.
+
+("").setAttribute("newattribute","nameofnewattribute"): Sets an attribute to an element
+
+("").textContent = "content": adds content to an element.
+
+# JQuery
+
+$: the same as typing the word "jQuery"
+
+$("#id): pull element
+
+$("#id").append(element): equivalent of appendchild
+
+forEach: takes a list, and for each of those things do x
+
+    ie. array.forEach(function(parameter)) {
+        thing you want happen
+    }
+
+## Events
+
+$(document).ready(function() {
+    thing you want happen
+}
+
+This is telling the browser to wait until the website is ready before executing function.
+
