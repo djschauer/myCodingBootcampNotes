@@ -554,3 +554,9 @@ $(document).ready(function() {
 
 This is telling the browser to wait until the website is ready before executing function.
 
+# Scope
+
+In Javascript, if you define something globally it can be used anywhere in the code.
+
+Think boxes. A box inside of another box knows everything in both boxes, but the encompassing box does not know any of the things happening inside the boxes within it.
+
